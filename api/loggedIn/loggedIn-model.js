@@ -1,5 +1,7 @@
-const {data, genId} = require("../../userDb/db");
+const data = require("../../userDb/info");
 
 module.exports = {
-    
+    async findAll() {
+        return data;
+    }
 }
